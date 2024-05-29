@@ -1,0 +1,173 @@
+/* CSS rule for sprite page body */
+.Sprite-Page {
+    background-color: white !important;
+    min-height: 100vh;
+}
+.Sprite-Page .main_contents {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Apply to all paragraphs in .Sprite-Page */
+.Sprite-Page p {
+    font-family: 'Oswald', sans-serif;
+}
+
+/** Override for paragraphs in .logo */
+.logo p {
+    font-family: "Open Sans", sans-serif; /* or specify a different font-family */
+}
+
+/** CSS rules for sprite page header */
+.Sprite-Page .navbar_coca_cola {
+    background-color: #00B140 ;
+}
+
+.Sprite-Page .navbar_coca_cola .navbar-brand{
+    color: white;
+}
+
+.Sprite-Page .navbar_coca_cola .nav-c-btns .nav-link{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+/** CSS rules for sprite page header font */
+
+.Sprite-Page .card-title, .gallery-header {
+    color: #353839;
+    font-family: cocaColaFont; 
+}
+
+/** CSS rules for sprite page card */
+.Sprite-Page .card {    
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: inherit;
+}
+
+
+/** CSS rules for sprite page Gallery */
+.Sprite-Page .gallery-header:hover {
+    color: #00B140;
+    border: 1px solid transparent;
+}
+
+/** CSS rules for sprite page x3d model panel */
+.Sprite-Page .x3dModel {
+    background-color: #F5F5F5; 
+    border-radius: 5px;
+    padding: 2px;
+    height: 400px;
+}
+
+.Sprite-Page X3D, x3d {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    cursor: pointer;
+}
+.Sprite-Page .nav-tabs{
+    font-size: 14pt;
+}
+
+.Sprite-Page .header-tabs{
+    background-color: white;
+}
+
+/** CSS rules for x3d model tabs */
+.Sprite-Page .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: white; /* Font color for active font */
+    background-color: #00B140; /* Green color for background */
+    border-color: #dee2e6 #dee2e6 #fff;
+    font-family: cocaColaFont;
+}
+
+.Sprite-Page .nav-tabs .nav-link.deactivated, .nav-tabs .nav-item.show .nav-link {
+    color: white; /* Font color for active font */
+    background-color: rgb(13, 110, 253); /* Light Blue color for background */
+    border-color: #dee2e6 #dee2e6 #fff;
+    font-family: cocaColaFont;
+}
+
+.Sprite-Page .nav-tabs .nav-link {
+    color: #000000;  
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+/** CSS rules for sprite dropdown menu*/
+.Sprite-Page .dropdown-menu{
+    background-color: #00B140;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Sprite-Page .dropdown-menu .dropdown-item{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Emulates the nav-bar link styling */
+.Sprite-Page .nav-tabs .nav-link:hover {
+    color: #ffee00  ;
+    border: 1px solid transparent;
+}
+.Sprite-Page .nav-tabs .nav-link.active .nav-link:hover {
+    color: #ffee00;
+    border: 1px solid transparent;
+}
+
+/* CSS rules for x3d model camera buttons */
+.Sprite-Page .btn-group .btn{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+.Sprite-Page .fom{
+    background-color: rgb(13, 110, 253);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+
+}
+.Sprite-Page .model-switch {
+    background-color: #F8D10A  ;
+    color: white    ;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Sprite-Page .btn-group .camera-front {
+    background-color: #00B140;
+}
+.Sprite-Page .btn-group .camera-back {
+    background-color: rgb(13, 110, 253);
+}
+.Sprite-Page .btn-group .camera-left {
+    background-color: #00B140;
+}
+.Sprite-Page .btn-group .camera-right {
+    background-color: rgb(13, 110, 253)  ;
+}
+
+.Sprite-Page .btn-group .camera-off {
+    background-color: #00B140;
+}
+
+/** CSS rules for sprite page footer*/
+.Sprite-Page .footer {
+    background-color: #00B140;
+    color: #030303;
+    position: relative;
+    height: 51px;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
