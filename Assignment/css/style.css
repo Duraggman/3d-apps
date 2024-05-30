@@ -49,6 +49,7 @@ body {
     /* The div block for the main_3d_image has no vertical size, 
     so we need a height to see the background image */
     height: 200px;
+    width: 100%;
 }
 
 #main_text {
@@ -87,9 +88,37 @@ body {
     background-color: rgba(182, 231, 243, 1.0);
 }
 
+.fom a{
+    color: #fff;
+    text-decoration: none;
+    border-color: transparent;
+    font-family: 'Oswald', sans-serif;    
+}
+
+.us{
+    background-color: #003B49;
+    border-color: transparent;
+    font-family: 'Oswald', sans-serif;   
+    color: white;
+
+}
+
+#link_right, .btn {
+    background-color: #760003;
+    border-color: transparent;
+}
+
+#link_mid, .btn {
+    background-color: #00B140;
+}
+
+#link_left, .btn {
+    background-color: #E90128;
+}
+
 /* CSS rule to style the mobile logo */
 .logo {
-    margin-top: 3px;
+    padding-top: 21px;
 }
     
 
@@ -146,6 +175,7 @@ body {
     border-width: 0px;
     min-height: 70px;
     margin-left: 0px;
+    padding-bottom: -1px;
 }
 
 /* CSS rule to overwrite the navbar-brand font color
@@ -222,7 +252,7 @@ There is plenty more styling to do than indicated here, in mobile it still defau
 
 /* Simple CSS rules for styling p and h1-h6 elements*/ 
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -234,12 +264,18 @@ h1, h2, h3, h4, h5, h6 {
 .footer {
     background-color: #760003;
     color: #030303;
-    height: 51px;
-    bottom: 0;
     width: 100%;
-    position: relative;
-    align-items: center;
-    justify-content: center;
+    border-width: 0;
+    margin: 0;
+    padding-bottom: 0px;
+}
+
+
+/* modal styling */
+.modal-footer .btn-secondary {
+    background-color: #760003;
+    color: white;
+    border: white;
 }
 
 
@@ -270,3 +306,11 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 0px; 
     align-self: right;
 } 
+
+.card-title, .gallery-header {
+    color: #353839;
+    font-family: cocaColaFont; 
+}
+
+
+

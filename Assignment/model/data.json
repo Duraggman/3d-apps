@@ -1,0 +1,153 @@
+{
+    "header": {
+        "logo": {
+            "brand": "Coca-Cola Journey",
+            "tagline": "Refreshing the world, one story at a time"
+        },
+        "navItems": [
+            {
+                "name": "Drinks",
+                "type": "dropdown",
+                "items": [
+                    "Coca-Cola",
+                    "Sprite",
+                    "Dr Pepper"
+                ]
+            },
+            {
+                "name": "Home",
+                "link": "Home-Page"
+            },
+            {
+                "name": "About",
+                "popover": {
+                    "title": "About Us",
+                    "content": "Established in 1886 by Dr John S Pemberton. Designed For Sussex Uni 3D Apps Module."
+                }
+            },
+            {
+                "name": "Contact us",
+                "modal": {
+                    "title": "Contact Us",
+                    "content": "The Coca‑Cola Company\nAddress:\nThe Coca‑Cola Company\nP.O. Box 1734\nAtlanta, GA\n30301\nUSA\nTelephone: 001 404 676 2121"
+                }
+            }
+        ]
+    },
+    "pages": [
+        {
+            "id": "Home-Page",
+            "content": [
+                {
+                    "type": "text",
+                    "header": "Coca-Cola Great Britain",
+                    "subheader": "Founded by Dr John S Pemberton",
+                    "paragraph": "The Coca‑Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+                },
+                {
+                    "type": "cards",
+                    "cards": [
+                        {
+                            "title": "Coca Cola",
+                            "image": "assets/images/coca_cola.jpg",
+                            "text": "Atlanta Beginnings: It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled. Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, he carried it a few doors down to Jacobs' Pharmacy. Here, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special. So Jacobs' Pharmacy put it on sale for five cents (about 3p) a glass.",
+                            "link": "https://www.coca-cola.com/gb/en/brands/coca-cola-original-taste"
+                        },
+                        {
+                            "title": "Sprite",
+                            "image": "assets/images/sprite.jpg",
+                            "text": "First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of our no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories.",
+                            "link": "https://www.coca-cola.com/gb/en/brands/sprite"
+                        },
+                        {
+                            "title": "Dr Pepper",
+                            "image": "assets/images/dr_pepper.jpg",
+                            "text": "This playful fizzy fruit flavoured soda, made with 32% of fruit juice, delivers a bold and bubbly mouthfeel and naturally stimulates senses. Dr Pepper is a refreshing thirst-quencher, always ready, wherever or whenever you need that treat or to reward yourself",
+                            "link": "https://www.coca-cola.com/gb/en/brands/dr-pepper"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Sprite-Page",
+            "style": "display: none;",
+            "content": [
+                {
+                    "type": "3dModel",
+                    "header": "Sprite",
+                    "model": "assets/x3d/models/sprite_v2.x3d",
+                    "description": "This is a 3D model of the Original Sprite bottle created in 3ds Max and converted to X3DOM using the InstantReality tool."
+                },
+                {
+                    "type": "gallery",
+                    "header": "Product Gallery",
+                    "description": "3D images rendered in 3ds Max"
+                },
+                {
+                    "type": "text",
+                    "header": "Sprite",
+                    "paragraph": "First introduced in 1961, crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of our no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories.",
+                    "link": "https://www.coca-cola.com/gb/en/brands/sprite"
+                },
+                {
+                    "type": "modinfo",
+                    "caption": "This is a 3D model of the Original Sprite bottle created in 3ds Max and converted toX3DOMusing the InstantReality tool.",
+                    "description": "Switch Model Look:"
+                }
+            ]
+        },
+        {
+            "id": "Coke-Page",
+            "style": "display: none;",
+            "content": [
+                {
+                    "type": "3dModel",
+                    "header": "Coke",
+                    "model": "assets/x3d/models/coke_can_v4.x3d",
+                    "description": "This is a 3D model of A Coke can created in 3ds Max and converted to X3DOM using the InstantReality tool."
+                },
+                {
+                    "type": "gallery",
+                    "header": "Product Gallery",
+                    "description": "3D images rendered in 3ds Max"
+                },
+                {
+                    "type": "text",
+                    "header": "Coke",
+                    "paragraph": "Atlanta Beginnings: It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled. Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, he carried it a few doors down to Jacobs' Pharmacy. Here, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special. So Jacobs' Pharmacy put it on sale for five cents (about 3p) a glass.",
+                    "link": "https://www.coca-cola.com/gb/en/brands/sprite"
+                }
+            ]
+        }
+    ],
+    "footer": {
+        "text": "&copy; 2024 Mobile Web 3D Applications",
+        "socialLinks": [
+            {
+                "platform": "Facebook",
+                "url": "#",
+                "icon": "fab fa-facebook-square fa-2x",
+                "style": "color: red;"
+            },
+            {
+                "platform": "Twitter",
+                "url": "#",
+                "icon": "fab fa-twitter-square fa-2x",
+                "style": "color: green;"
+            },
+            {
+                "platform": "Google Plus",
+                "url": "#",
+                "icon": "fab fa-google-plus-square fa-2x",
+                "style": "color: blue;"
+            },
+            {
+                "platform": "Github",
+                "url": "#",
+                "icon": "fab fa-github-square fa-2x",
+                "style": "color: yellow;"
+            }
+        ]
+    }
+}
